@@ -103,11 +103,3 @@ ts.join = (items: (TsValue | TsValue[])[], join = '\n') =>
     .filter((i) => i !== null && i !== undefined)
     .map((value) => (value instanceof Array ? value.join(join) : String(value)))
     .join(join);
-
-ts/* ts */ `${'my file'}
-
-function test() {
-  console.log('Hello with syntax highlighting!')
-}
-
-`;
