@@ -1,7 +1,7 @@
 {
   "name": "ts-writer",
   "version": "1.3.0",
-  "description": "A 1.5Kb template string template engine designated to generate code at runtime.",
+  "description": "Ts Writer is a simple and lightweight library to generate js and dts files using template strings.",
   "homepage": "https://tinylibs.js.org/packages/ts-writer",
   "bugs": "https://github.com/kitajs/ts-writer/issues",
   "repository": {

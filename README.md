@@ -107,13 +107,40 @@ function generate() {
 
   export default 'Hello World';
   `;
+
+  // Source result
+  source = {
+    filename: 'filename.js',
+    content:
+      '// Any text here will be put inside the source.content variable above. Under\n' +
+      '// the filename.js file.\n' +
+      '\n' +
+      '// It will auto remove indentation if you call ts inside a indentation block.\n' +
+      '// like this function.\n' +
+      '\n' +
+      "exports = 'Hello World';\n" +
+      'exports.__esModule = true;'
+  };
+
+  // Types result
+  types = {
+    filename: 'filename.d.ts',
+    content:
+      '// If you want to also generate a filename.d.ts file, you can use the ts.types\n' +
+      '// variable above. Everything after it will be put inside the types variable above.\n' +
+      '// (filename.d.ts)\n' +
+      '\n' +
+      "export default 'Hello World';"
+  };
 }
 ```
 
 ## Syntax Highlighting
 
-If you are using VSCode, the `bierner.comment-tagged-templates` extension will highlight
-the template strings if you put `/*ts*/` comment between the `ts` and its backticks:
+If you are using VSCode, the
+[`bierner.comment-tagged-templates`](https://marketplace.visualstudio.com/items?itemName=bierner.comment-tagged-templates)
+extension will highlight the template strings if you put `/*ts*/` comment between the `ts`
+and its backticks:
 
 ![example](assets/syntax-highlighting.png)
 
