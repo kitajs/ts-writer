@@ -1,3 +1,4 @@
+import stringify from 'json-stable-stringify';
 import type { Filename, TsFile, TsValue } from './types';
 
 export function ts(
@@ -64,6 +65,8 @@ export function ts(
         ? ''
         : value instanceof Array
         ? ts.join(value, '\n')
+        : typeof value === 'object'
+        ? stringify(value, { space: 2 })
         : String(value);
 
     if (isSource) {
