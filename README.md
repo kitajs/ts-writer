@@ -38,8 +38,6 @@
 
 - [Table of Contents](#table-of-contents)
 - [Installing](#installing)
-  - [Node](#node)
-  - [Url Import](#url-import)
 - [Getting Started](#getting-started)
 - [Generating code](#generating-code)
 - [Syntax Highlighting](#syntax-highlighting)
@@ -48,8 +46,6 @@
 <br />
 
 ## Installing
-
-### Node
 
 ```sh
 npm install ts-writer # or yarn add ts-writer
@@ -64,9 +60,7 @@ import { TsWriter } from 'ts-writer';
 const { TsWriter } = window.tsWriter;
 ```
 
-### Url Import
-
-```ts
+```js
 import { TsWriter } from 'https://cdn.skypack.dev/ts-writer@latest';
 ```
 
