@@ -67,7 +67,7 @@ const { TsWriter } = window.tsWriter;
 ### Url Import
 
 ```ts
-
+import { TsWriter } from 'https://cdn.skypack.dev/ts-writer@latest';
 ```
 
 <br />
