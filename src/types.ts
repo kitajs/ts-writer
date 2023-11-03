@@ -3,14 +3,16 @@
  * filenames
  */
 export interface TsFile {
-  source: {
-    filename: string;
-    content: string;
-  };
-  types: {
-    filename: string;
-    content: string;
-  };
+  source: TsContent;
+  types: TsContent;
+}
+
+/**
+ * A simple filename with content.
+ */
+export interface TsContent {
+  filename: string;
+  content: string;
 }
 
 /**
