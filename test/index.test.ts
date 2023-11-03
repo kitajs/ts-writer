@@ -136,6 +136,22 @@ test('array usage', () => {
   });
 });
 
+test('object usage', () => {
+  const file = ts`${'object'}${{ z: 1, a: 2 }}`;
+
+  assert.deepStrictEqual(file, {
+    source: {
+      filename: 'object.js',
+      // 'json-stable-stringify' sorts the keys to keep a consistent output.
+      content: '{\n  "a": 2,\n  "z": 1\n}'
+    },
+    types: {
+      filename: 'object.d.ts',
+      content: ''
+    }
+  });
+});
+
 test('join usage', () => {
   assert.equal(ts.join([1, 2, 3]), '1\n2\n3');
   assert.equal(ts.join([1, 2, 3], ' '), '1 2 3');
