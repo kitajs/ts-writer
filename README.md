@@ -19,8 +19,8 @@
 <div align="center">
   <a title="MIT license" target="_blank" href="https://github.com/kitajs/ts-writer/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/github/license/kitajs/ts-writer"></a>
   <a title="Codecov" target="_blank" href="https://app.codecov.io/gh/kitajs/ts-writer"><img alt="Codecov" src="https://img.shields.io/codecov/c/github/kitajs/ts-writer?token=ML0KGCU0VM"></a>
-  <a title="NPM Package" target="_blank" href="https://www.npmjs.com/package/@kitajs/generator"><img alt="Downloads" src="https://img.shields.io/npm/dw/@kitajs/generator?style=flat"></a>
-  <a title="Bundle size" target="_blank" href="https://bundlephobia.com/package/@kitajs/generator@latest"><img alt="Bundlephobia" src="https://img.shields.io/bundlephobia/minzip/@kitajs/generator/latest?style=flat"></a>
+  <a title="NPM Package" target="_blank" href="https://www.npmjs.com/package/@kitajs/ts-writer"><img alt="Downloads" src="https://img.shields.io/npm/dw/@kitajs/ts-writer?style=flat"></a>
+  <a title="Bundle size" target="_blank" href="https://bundlephobia.com/package/@kitajs/ts-writer@latest"><img alt="Bundlephobia" src="https://img.shields.io/bundlephobia/minzip/@kitajs/ts-writer/latest?style=flat"></a>
   <a title="Last Commit" target="_blank" href="https://github.com/kitajs/ts-writer/commits/master"><img alt="Last commit" src="https://img.shields.io/github/last-commit/kitajs/ts-writer"></a>
   <a href="https://github.com/kitajs/ts-writer/stargazers"><img src="https://img.shields.io/github/stars/kitajs/ts-writer?logo=github&label=Stars" alt="Stars"></a>
 </div>
